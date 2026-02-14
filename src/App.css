@@ -1,0 +1,30 @@
+#root {
+  max-width: 1536px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+.div1 {
+  grid-area: 1 / 1 / 8 / 11;
+  background-color: blanchedalmond;
+}
+.div2 {
+  grid-area: 8 / 3 / 11 / 6;
+  background-color: rgb(4, 214, 85);
+}
+.div3 {
+  grid-area: 8 / 6 / 11 / 9;
+  background-color: rgb(2, 235, 215);
+}
