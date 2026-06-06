@@ -1,16 +1,16 @@
-# React + Vite
+# Valentine Tracker 💖 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Web iseng ala Valentine. Dibikin pakai React dan Tailwind CSS cuma buat satu tujuan: **memaksa target untuk bilang "YES"**. 
 
-Currently, two official plugins are available:
+Di web ini, opsi menolak itu mitos. Target dijamin gak bakal bisa klik tombol "NO".
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🪄 Mekanisme (Cara Kerja)
 
-## React Compiler
+*   **Fase 1: Tombol "YES" Membengkak** 
+    Tiap kali  klik tombol **"NO"**, tombol **"YES"** bakal otomatis makin gede sampai menonjol di layar.
+*   **Fase 2: Tombol "NO" Kabur-kaburan**
+    Kalau keras kepala klik "NO" sampai 3 kali, sistem bakal nge-lock. Begitu kursor mouse dia mendekat sedikit aja ke tombol "NO", tombolnya bakal otomatis teleportasi pindah posisi secara acak di layar. Intinya: **Gak bakal bisa diklik.**
+*   **Fase 3: Tobol "YES" di klik**
+    Begitu di klik tombol **"YES"**, web bakal nampilin efek loading palsu sebelum memunculkan kalimat pamungkas: *"I Knew It...Selamat Hari Valentine Sayang 🥰"*.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
